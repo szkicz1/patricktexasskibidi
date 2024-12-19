@@ -1,0 +1,36 @@
+.header {
+  background-color: $dark-color;
+  color: $light-color;
+  padding: 1rem;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__list {
+      display: none;
+      flex-direction: column;
+      list-style: none;
+      padding: 0;
+
+      &--visible {
+        display: flex;
+      }
+    }
+
+    &__item {
+      margin: 0.5rem 0;
+    }
+
+    &__link {
+      text-decoration: none;
+      color: $light-color;
+
+      &:hover {
+        text-decoration: underline;
+        color: $accent-color;
+      }
+    }
+  }
+}

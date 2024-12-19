@@ -1,0 +1,20 @@
+.games, .roulette, .slots {
+    margin-top: 2rem;
+  
+    &__title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+  
+    &__result {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: $primary-color;
+      background-color: $light-color;
+      padding: 1rem;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
+  

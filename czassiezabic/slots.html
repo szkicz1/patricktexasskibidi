@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m7ueheheheh</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <button class="nav__toggle" aria-label="Menu główne" id="menu-button">☰</button>
+            <p class="nav__balance">balance: <span id="global-balance">1000</span> </p>
+        </nav>
+    </header>
+
+    <div class="menu-popup" id="menu-popup">
+        <div class="menu-popup__content">
+            <button class="menu-popup__close" id="menu-close">X</button>
+            <h2 class="menu-popup__title">Hello skibidi</h2>
+            <div class="menu-popup__buttons">
+                <a href="index.html" class="button button--primary">Main Page</a>
+                <a href="clicker.html" class="button button--primary">Clicker</a>
+                <a href="roulette.html" class="button button--primary">Roulette</a>
+                <a href="slots.html" class="button button--primary">Slots</a>
+                <a href="shop.html" class="button button--primary">Shop</a>
+                <a href="poker.html" class="button button--primary">Poker</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="slots">
+            <h1 class="slots__title">slots</h1>
+            <button id="slots-spin" class="slots__spin">spin</button>
+            <p id="slots-result" class="slots__result"></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="scripts/global-balance.js"></script>
+    <script src="scripts/slots.js"></script>
+</body>
+</html>

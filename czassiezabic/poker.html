@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>muehehhehe</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <button class="nav__toggle" aria-label="Menu główne" id="menu-button">☰</button>
+            <p class="nav__balance">balance: <span id="global-balance">1000</span> </p>
+        </nav>
+    </header>
+
+    <div class="menu-popup" id="menu-popup">
+        <div class="menu-popup__content">
+            <button class="menu-popup__close" id="menu-close">X</button>
+            <h2 class="menu-popup__title">Hello skibidi</h2>
+            <div class="menu-popup__buttons">
+                <a href="index.html" class="button button--primary">Main Page</a>
+                <a href="clicker.html" class="button button--primary">Clicker</a>
+                <a href="roulette.html" class="button button--primary">Roulette</a>
+                <a href="slots.html" class="button button--primary">Slots</a>
+                <a href="shop.html" class="button button--primary">Shop</a>
+                <a href="poker.html" class="button button--primary">Poker</a>
+            </div>
+        </div>
+    </div>
+
+    <main class="main">
+        <section class="poker">
+            <h1 class="poker__title">Poker</h1>
+            <label for="poker-bet" class="poker__label">Place a bet:</label>
+            <input type="number" id="poker-bet" class="poker__input" min="1" max="1000">
+
+            <button id="poker-draw" class="button button--primary">Take hand</button>
+
+            <p id="poker-hand" class="poker__hand">Ur Hand:</p>
+            <p id="poker-result" class="poker__result"></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+    </footer>
+
+    <script src="scripts/global-balance.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/poker.js"></script>
+</body>
+</html>
